@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  padding: 0 3%;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+}

@@ -1,0 +1,64 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-left: -50px;
+  width: 70%;
+}
+
+.filters div {
+  padding-top: 9px;
+}
+
+.filters h2 {
+  font-weight: bold;
+  font: 20px sans-serif;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.filters button {
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+  resize: none;
+  background: transparent;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.filters .iconFilter {
+  color: #0065fc;
+  background: rgb(171, 215, 242);
+  border-radius: 50%;
+  padding: 12px;
+  margin: -10px -10px -10px -30px;
+}
+
+.info {
+  width: 60%;
+  font-size: small;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    width: 90%;
+    flex-direction: column;
+    justify-content: left;
+  }
+  .filters button {
+    margin: 5px;
+  }
+  .filters div {
+    padding-top: 0px;
+  }
+
+  .filters h4 {
+    margin: 0;
+  }
+
+  .info {
+    width: 80%;
+  }
+}

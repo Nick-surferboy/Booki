@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Booki</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/search.css" />
+    <link rel="stylesheet" href="./css/filter.css" />
+    <link rel="stylesheet" href="./css/accomodations.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+    </style>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <img src="./images/logo/Booki.png" alt="" />
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="#">Accommodations</a></li>
+            <li><a href="#">Activities</a></li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section class="search">
+      <form>
+        <h2>Find a place for your dream vacation</h2>
+        <p>Downtown or in nature</p>
+        <i class="fa-sharp fa-solid fa-location-dot"></i>
+        <input type="text" />
+        <button class="btnSearch">Search</button>
+        <i class="fa fa-search"></i>
+      </form>
+
+      <div class="filters">
+        <div><h2>Filters</h2></div>
+        <div>
+          <button>
+            <i class="fa-solid fa-money-bill-wave iconFilter"></i>Low cost
+          </button>
+        </div>
+        <div>
+          <button>Family friendly</button>
+        </div>
+        <div>
+          <button>Romanctic</button>
+        </div>
+        <div>
+          <button>Pets allowed</button>
+        </div>
+      </div>
+      <p class="info">
+        i More than 500 accommodations are available in this city
+      </p>
+    </section>
+    <section class="accommodations">
+      <div class="cards">
+        <div class="titreAcc">Accomodations in Marseille</div>
+        <div class="card">
+          <img
+            src="../images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+            alt="Hot air balloons"
+          />
+          <p class="titre">Auberge la cannebière</p>
+          <p class="prix">Night starting at 25$</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+            alt="Hot air balloons"
+          />
+          <p class="titre">Morning Sun Hotel</p>
+          <p class="prix">Night starting at 128$</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+            alt="Hot air balloons"
+          />
+          <p class="titre">Les mouettes Hotel</p>
+          <p class="prix">Night starting at 76$</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+            alt="Hot air balloons"
+          />
+          <p class="titre">Auberge le panier</p>
+          <p class="prix">Night starting at 23$</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i
+            ><i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="../images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+            alt="Hot air balloons"
+          />
+          <p class="titre">Hotel du port</p>
+          <p class="prix">Night starting at 52$</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i
+            ><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i
+            ><i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <p class="more">Show more</p>
+      </div>
+      <div class="cardsPopular">
+        <div class="titreAccP">Most popular</div>
+        <div class="cardPopular">
+          <img
+            src="../images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+            alt="Hot air balloons"
+          />
+          <div class="info">
+            <p class="titreP">Auberge la cannebière</p>
+            <p class="prixP">Night starting at 25$</p>
+            <div class="starP">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cardPopular">
+          <img
+            src="../images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+            alt="Hot air balloons"
+          />
+          <div class="info">
+            <p class="titreP">Auberge la cannebière</p>
+            <p class="prixP">Night starting at 25$</p>
+            <div class="starP">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cardPopular">
+          <img
+            src="../images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+            alt="Hot air balloons"
+          />
+          <div class="info">
+            <p class="titreP">Auberge la cannebière</p>
+            <p class="prixP">Night starting at 25$</p>
+            <div class="starP">
+              <i class="fa-solid fa-star star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sectionActivities">
+      <h2>Activities in Marseille</h2>
+      <div class="activities">
+        <div class="longCardActivity">
+          <img
+            src="./images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+            alt=""
+          />
+          <p>Old port</p>
+        </div>
+        <div class="averageCardActivity">
+          <img
+            src="./images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+            alt=""
+          />
+          <p>Old port</p>
+        </div>
+        <div class="smallCardActivity">
+          <img
+            src="./images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+            alt=""
+          />
+          <p>Old port</p>
+        </div>
+        <div class="longCardActivity2">
+          <img
+            src="./images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+            alt=""
+          />
+          <p>Old port</p>
+        </div>
+
+        <div class="smallCardActivity2">
+          <img
+            src="./images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+            alt=""
+          />
+          <p>Old port</p>
+        </div>
+        <div class="averageCardActivity2">
+          <img
+            src="./images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+            alt=""
+          />
+          <p>Old port</p>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div>
+      <p>About</p>
+      <ul>
+        <li><a href="#">Site Map</a></li>
+        <li><a href="#">General Terms and Conditions</a></li>
+        <li><a href="#">Data and Privacy</a></li>
+      </ul>
+    </div>
+    <div>
+      <p>Our Accommodations</p>
+      <ul>
+        <li><a href="#">Quality Assessment</a></li>
+        <li><a href="#">You have a hotel?</a></li>
+      </ul>
+    </div>
+    <div>
+      <p>Assistance</p>
+      <ul>
+        <li><a href="#">Help Desk</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,75 @@
+form {
+  margin-top: 5%;
+}
+
+form h2 {
+  display: block;
+  margin-bottom: 0px;
+  font: 20px sans-serif;
+  
+}
+form p {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+form .btnSearch {
+  background-color: #0065fc;
+  color: white;
+  font: 15px sans-serif;
+  border-radius: 0% 12px 12px 0%;
+  height: 35px;
+  margin-left: -5px;
+  border-style: none;
+  cursor: pointer;
+}
+
+form .fa-location-dot {
+  background: lightgray;
+  margin-right: -5px;
+  padding: 10px 20px 26px 15px;
+  height: 36px;
+  width: 25px;
+  border-radius: 12px 0px 0px 12px;
+}
+
+form input {
+  height: 35px;
+  background: #f2f2f2;
+  border: 1px solid;
+  font: 15px sans-serif;
+  text-align: left;
+}
+
+form .fa-search {
+  display: none;
+}
+
+form input:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .search {
+    padding-left: 12px;
+  }
+
+  form .btnSearch {
+    display: none;
+  }
+
+  form .fa-search {
+    display: inline;
+    background-color: #0065fc;
+    color: white;
+    margin: -5px;
+    padding: 10px 10px ;
+    height: 10px;
+    width: 15px;
+    border-radius: 0px 12px 12px 0px;
+    cursor: pointer;
+  }
+  form input {
+    width: 150px;
+  }
+}
