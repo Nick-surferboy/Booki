@@ -9,7 +9,6 @@
   grid-template: 50px 250px 250px 60px / auto auto auto;
   background-color: lightgray;
   width: 95%;
-  overflow: hidden;
   grid-gap: 2%;
   padding: 2% 2% 3% 3%;
   border-radius: 15px;
@@ -19,18 +18,42 @@
   display: grid;
   grid-template: auto 16px 16px 16px / auto;
   background-color: white;
-  margin-top: 6px;
-  padding-top: 6px;
+  margin-top: 0px;
+  padding-top: 0px;
   border-radius: 15px;
+  font-size: 10px;
   cursor: pointer;
   overflow: auto;
+}
+
+.cardPopular {
+  display: grid;
+  grid-template: 160px/ 150px 130px;
+  background-color: white;
+  border-radius: 15px;
   font-size: 10px;
+  margin: 5%;
+  cursor: pointer;
+  overflow: auto;
+}
+
+.cardPopular img {
+  border-radius: 15px 0 0 15px;
+  width: 98%;
+  height: 94%;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.cardPopular .info{
+  margin-left: 5px;
+  width: 100%;
 }
 
 .card img {
-  border-radius: 3%;
-  width: 90%;
-  height: 90%;
+  border-radius: 15px 15px 0 0;
+  width: 96%;
+  height: 95%;
   margin: auto;
 }
 
@@ -67,8 +90,6 @@
   color:#0065fc;
 }
 
-
-
 .cardsPopular {
   display: grid;
   background-color: lightgray;
@@ -77,45 +98,28 @@
   display: block;
 }
 
-.cardPopular {
-  display: grid;
-  grid-template: auto / auto auto;
-  background-color: white;
-  border-radius: 15px;
-  cursor: pointer;
-  height: 160px;
-  font-size: 10px;
-  margin: 5%;
-  border: solid red;
-}
+
 
 .accommodations .titreAccP {
-  padding: 20px 0 40px 20px;
+  padding: 20px 0 33px 20px;
   height: 20px;
   font: 20px bolder sans-serif;
 }
 
-.cardPopular img {
-  object-fit: cover;
-  border-radius: 15px 0 0 15px;
-  width: 90%;
-  height: 90%;
-  margin: 5px;
-  border: solid green;
-}
+
 
 .accommodations .titreP {
-  width: 150px;
+  width: auto;
   font: 13px bolder sans-serif;
 }
 
 .accommodations .prixP {
-  width: 150px;
+  width: auto;
   font: 13px;
 }
 
 .accommodations .starP {
-  font: 10px;
+  color:#0065fc;
 }
 
 .sectionActivities {
