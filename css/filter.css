@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 30px;
-  margin-left: -50px;
+  margin-left: -10px;
   width: 70%;
 }
 
@@ -19,12 +19,13 @@
 }
 
 .filters button {
-  border-style: solid;
+  border-style: solid ;
   border-radius: 20px;
   padding: 10px 20px;
+  text-align: right;
   resize: none;
   background: transparent;
-  font-weight: bolder;
+  font: 18px bolder sans-serif;
   cursor: pointer;
 }
 
@@ -32,8 +33,16 @@
   color: #0065fc;
   background: rgb(171, 215, 242);
   border-radius: 50%;
-  padding: 12px;
-  margin: -10px -10px -10px -30px;
+  padding: 14px;
+  margin: -10px 10px -10px -30px;
+}
+
+.iconInfo{
+  color: #0065fc;
+  border: solid lightgrey;
+  border-radius: 50%;
+  padding : 5px 10px 5px 10px;
+
 }
 
 .info {

@@ -2,6 +2,7 @@
   display: grid;
   grid-template: auto / 70% 30%;
   width: 100%;
+  margin-top: 50px;
 }
 
 .cards {
@@ -46,7 +47,7 @@
 }
 
 .cardPopular .info{
-  margin-left: 5px;
+  margin: 20px 0 0 10px;
   width: 100%;
 }
 
