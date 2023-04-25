@@ -26,3 +26,18 @@ footer ul li a {
   text-decoration: none;
   font-size: 13px;
 }
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    width: 103%;
+    height: 500px;
+  }
+
+  footer div {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+  }
+}

@@ -15,6 +15,14 @@
   border-radius: 15px;
 }
 
+.cardsPopular {
+  display: grid;
+  background-color: lightgray;
+  padding: 3% 0% 0% 0%;
+  border-radius: 15px;
+  display: block;
+}
+
 .card {
   display: grid;
   grid-template: auto 16px 16px 16px / auto;
@@ -46,7 +54,7 @@
   overflow: hidden;
 }
 
-.cardPopular .info{
+.cardPopular .info {
   margin: 20px 0 0 10px;
   width: 100%;
 }
@@ -88,15 +96,7 @@
 
 .accommodations .star {
   padding: 0 0 0 15px;
-  color:#0065fc;
-}
-
-.cardsPopular {
-  display: grid;
-  background-color: lightgray;
-  padding: 3% 0% 0% 0%;
-  border-radius: 15px;
-  display: block;
+  color: #0065fc;
 }
 
 
@@ -106,8 +106,6 @@
   height: 20px;
   font: 20px bolder sans-serif;
 }
-
-
 
 .accommodations .titreP {
   width: auto;
@@ -120,7 +118,7 @@
 }
 
 .accommodations .starP {
-  color:#0065fc;
+  color: #0065fc;
 }
 
 .sectionActivities {
@@ -234,15 +232,66 @@
 }
 
 @media (max-width: 768px) {
-  .cards {
-    display: inline-block;
-  }
-
   .accommodations {
     display: inline-block;
+    margin-top: 0px;
   }
+  .cards {
+    display: inline-block;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 0% 4% 5% 4%;
+    order: 2;
+  }
+
+  .cardsPopular {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 0;
+    order:1;
+  }
+
+  .accommodations .titreAcc {
+    margin-bottom: 30px;
+  }
+
+  .accommodations .titreAccP {
+    padding-top:0 ;
+    padding-bottom:0 ;
+  }
+
+  .card {
+    margin-top: 10px;
+  }
+  .card img {
+    padding-top: 6px;
+    height: 150px;
+  }
+
+  
 
   .activities {
     display: inline-block;
+  }
+
+  .sectionActivities{
+    width: auto;
+    max-height: 100%;
+    margin: 0;
+  }
+
+  .sectionActivities h2 {
+    padding: 0 0 0 20px;
+  }
+  .activities img {
+    width: 351px ;
+    height: 110px;
+    object-fit: cover;
+  }
+
+  .activities div {
+    width: 351px ;
+    height: 160px;
+    margin: 0 0 20px 20px;
   }
 }

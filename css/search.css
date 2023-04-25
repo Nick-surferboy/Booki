@@ -55,6 +55,10 @@ form input:focus {
     padding-left: 12px;
   }
 
+  form h2 {
+    width: 70%;
+    
+  }
   form .btnSearch {
     display: none;
   }

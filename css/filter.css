@@ -19,7 +19,7 @@
 }
 
 .filters button {
-  border-style: solid ;
+  border-style: solid;
   border-radius: 20px;
   padding: 10px 20px;
   text-align: right;
@@ -37,12 +37,11 @@
   margin: -10px 10px -10px -30px;
 }
 
-.iconInfo{
+.iconInfo {
   color: #0065fc;
   border: solid lightgrey;
   border-radius: 50%;
-  padding : 5px 10px 5px 10px;
-
+  padding: 5px 10px 5px 10px;
 }
 
 .info {
@@ -52,19 +51,15 @@
 
 @media (max-width: 768px) {
   .filters {
-    width: 90%;
-    flex-direction: column;
+    width: 100%;
     justify-content: left;
+    padding-left: 12px;
   }
   .filters button {
     margin: 5px;
   }
   .filters div {
     padding-top: 0px;
-  }
-
-  .filters h4 {
-    margin: 0;
   }
 
   .info {
