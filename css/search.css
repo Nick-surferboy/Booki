@@ -42,6 +42,11 @@ form input {
   text-align: left;
 }
 
+form input:focus {
+  transition-duration: 0.3s;
+  border-color: #0065fc;
+}
+
 form .fa-search {
   display: none;
 }

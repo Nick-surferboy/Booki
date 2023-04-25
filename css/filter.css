@@ -29,6 +29,11 @@
   cursor: pointer;
 }
 
+.filters button:hover{
+  transform: scale(1.15);
+  transition-duration: 0.5s;
+}
+
 .filters .iconFilter {
   color: #0065fc;
   background: rgb(171, 215, 242);
